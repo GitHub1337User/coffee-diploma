@@ -1,0 +1,126 @@
+$primary-font: 'Nunito', sans-serif
+//$primary-font: 'Yellowtail', cursive
+//$primary-font: 'Noto Sans Mono', monospace
+$primary-color: black
+$secondary-color: white
+$third-color: orange
+//$primary-color:  #DFB78C
+//$secondary-color: #AB6832
+//$third-color: #49281A
+
+
+
+*
+    box-sizing: border-box
+    padding: 0
+    margin: 0
+    //background: $primary-color
+body
+    //background: $secondary-color
+    background: $primary-color
+    font-family: $primary-font
+.wrapper
+    max-width: 1200px
+    margin: 0 auto
+    //border: 1px solid red
+.description-site
+    width: 100%
+    //max-width: 600px
+    margin-top: 2em
+    margin-bottom: 2em
+    font-size: 20px
+    padding: 30px
+    background: $primary-color
+    color: $secondary-color
+    h1
+        color: $third-color
+.wrapper-card
+    width: 100%
+    height: fit-content
+    display: flex
+    flex-flow: row wrap
+    justify-content: space-around
+    align-items: center
+    padding: 15px
+    .card
+        width: 300px
+        height: 500px
+        padding: 15px
+        border: 1px solid $secondary-color
+        display: flex
+        flex-direction: column
+        justify-content: space-between
+        margin-top: 20px
+        p
+            margin-top: 10px
+        img
+            width: 100%
+            height: 200px
+        a
+            text-decoration: none
+            display: block
+            background: $third-color
+            color: $secondary-color
+            width: 100%
+            text-align: center
+            padding: 10px
+.watch-all
+    color: $secondary-color
+    text-decoration: none
+.video-item
+    width: 100%
+    max-width: 500px
+    //height: 200px
+.video-wrap
+    display: flex
+    flex-flow: row wrap
+    justify-content: center
+    align-items: center
+    .description-site
+        max-width: 600px
+.cart
+    width: 100%
+    height: fit-content
+    margin: 0 auto
+    display: flex
+    justify-content: space-around
+    flex-flow: row wrap
+    .cart-element
+        width: 300px
+        height: 400px
+        color: $secondary-color
+        border: 1px solid $secondary-color
+        padding: 15px
+        display: flex
+        flex-direction: column
+        justify-content: space-between
+        margin-top: 20px
+        p
+            margin-top: 10px
+        img
+            width: 100%
+            height: 200px
+        a
+            text-decoration: none
+            display: block
+            background: $third-color
+            color: $secondary-color
+            width: 100%
+            text-align: center
+            padding: 10px
+        .delete-cart
+            background: #e85e5e
+        .minus-cart,.plus-cart
+            background: $third-color
+        .control-cart
+            width: 100%
+            display: flex
+            justify-content: space-around
+            flex-flow: row
+            font-size: 16pt
+            button
+                padding: 10px
+                border: none
+                color: $secondary-color
+        .count-cart
+            color: $secondary-color

@@ -1,0 +1,516 @@
+@import url(https://fonts.googleapis.com/css2?family=Nunito:wght@900&display=swap);
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: black;
+  font-family: "Nunito", sans-serif;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.description-site {
+  width: 100%;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  font-size: 20px;
+  padding: 30px;
+  background: black;
+  color: white;
+}
+.description-site h1 {
+  color: orange;
+}
+
+.wrapper-card {
+  width: 100%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 15px;
+}
+.wrapper-card .card {
+  width: 300px;
+  height: 500px;
+  padding: 15px;
+  border: 1px solid white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.wrapper-card .card p {
+  margin-top: 10px;
+}
+.wrapper-card .card img {
+  width: 100%;
+  height: 200px;
+}
+.wrapper-card .card a {
+  text-decoration: none;
+  display: block;
+  background: orange;
+  color: white;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+}
+
+.watch-all {
+  color: white;
+  text-decoration: none;
+}
+
+.video-item {
+  width: 100%;
+  max-width: 500px;
+}
+
+.video-wrap {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+.video-wrap .description-site {
+  max-width: 600px;
+}
+
+.cart {
+  width: 100%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  flex-flow: row wrap;
+}
+.cart .cart-element {
+  width: 300px;
+  height: 400px;
+  color: white;
+  border: 1px solid white;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.cart .cart-element p {
+  margin-top: 10px;
+}
+.cart .cart-element img {
+  width: 100%;
+  height: 200px;
+}
+.cart .cart-element a {
+  text-decoration: none;
+  display: block;
+  background: orange;
+  color: white;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+}
+.cart .cart-element .delete-cart {
+  background: #e85e5e;
+}
+.cart .cart-element .minus-cart, .cart .cart-element .plus-cart {
+  background: orange;
+}
+.cart .cart-element .control-cart {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-flow: row;
+  font-size: 16pt;
+}
+.cart .cart-element .control-cart button {
+  padding: 10px;
+  border: none;
+  color: white;
+}
+.cart .cart-element .count-cart {
+  color: white;
+}
+
+header {
+  background-image: url(/images/coffee_bg.jpg?7890eab03827dcf6dad9f6c76b1fd209);
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  font-family: "Nunito", sans-serif;
+  margin-bottom: 20px;
+}
+
+.header {
+  color: white;
+  display: flex;
+  max-width: 1100px;
+  margin: 0 auto;
+  height: 500px;
+  justify-content: flex-start;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 50px;
+}
+.header h1 {
+  font-family: "Nunito", sans-serif;
+}
+.header div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.header div * {
+  margin-top: 15px;
+}
+.header div a {
+  display: block;
+  padding: 15px;
+  background: orange;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+footer {
+  width: 100%;
+  height: 200px;
+  background: black;
+  color: white;
+}
+
+.footer-wrap {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: 100%;
+}
+.footer-wrap div {
+  width: 300px;
+  height: 300px;
+  padding: 15px;
+}
+
+.about {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.about * {
+  display: block;
+}
+
+.laravel {
+  font-size: 12px;
+  color: orange;
+  font-weight: bold;
+}
+
+.icons-block {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  flex-direction: column;
+}
+.icons-block h3 {
+  color: orange;
+}
+.icons-block img {
+  background: white;
+  width: 20px;
+  border-radius: 5px;
+  margin-left: 20px;
+}
+.icons-block span a {
+  text-decoration: none;
+  color: white;
+}
+.icons-block span a:hover {
+  text-decoration: underline;
+  transition: 0.5s;
+}
+
+nav {
+  width: 100%;
+  height: 50px;
+  background: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.logo {
+  color: orange;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  overflow: hidden;
+  transition: 0.5s;
+  background: black;
+  z-index: 10000;
+}
+.menu a {
+  margin-left: 30px;
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  padding: 5px;
+  background: black;
+  font-size: 12pt;
+}
+.menu a:hover {
+  background: orange;
+  transition: 0.3s;
+}
+
+.menuToggle {
+  display: none;
+}
+
+.hamburger:after, .hamburger:before {
+  content: "";
+  width: 30px;
+  height: 4px;
+  position: absolute;
+  background: white;
+  transition: 0.5s;
+}
+
+.hamburger {
+  width: 30px;
+  height: 4px;
+  transform: translate(-50%, -50%);
+  background: white;
+  transition: 0.5s;
+  display: inline-block;
+  margin-left: 12px;
+}
+.hamburger:before {
+  top: -10px;
+}
+.hamburger:after {
+  top: 10px;
+}
+
+.icon.active .hamburger {
+  background: rgba(0, 0, 0, 0);
+}
+
+.icon.active .hamburger:before {
+  top: 0;
+  transform: rotate(45deg);
+}
+
+.icon.active .hamburger:after {
+  top: 0;
+  transform: rotate(135deg);
+}
+
+@media (max-width: 640px) {
+  .menu {
+    height: 0;
+  }
+  .menu a {
+    margin-left: 0;
+  }
+  .menuToggle {
+    display: block;
+  }
+  .menu {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    overflow: hidden;
+  }
+  .menu a {
+    width: 100%;
+    font-size: 16pt;
+    text-align: center;
+  }
+}
+.inspect-card {
+  width: 300px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 15px;
+  border: 1px solid white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.inspect-card p {
+  margin-top: 10px;
+}
+.inspect-card img {
+  width: 100%;
+  height: 200px;
+}
+.inspect-card a {
+  text-decoration: none;
+  display: block;
+  background: orange;
+  color: white;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+}
+
+.inspect-descr {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+.inspect-descr * {
+  display: inline-block;
+}
+.inspect-descr span {
+  color: orange;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.auth-card {
+  color: white;
+  min-width: 300px;
+  width: 30%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin: 0 auto;
+  padding: 15px;
+  border: 2px solid orange;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  font-family: "Nunito", sans-serif;
+  font-size: 12pt;
+}
+.auth-card * {
+  display: block;
+  margin-bottom: 10px;
+}
+.auth-card input {
+  padding: 15px;
+  color: white;
+  background: black;
+  border: none;
+  border-bottom: 2px solid orange;
+  outline: none;
+  font-size: 14pt;
+}
+.auth-card button {
+  background: orange;
+  font-size: 14pt;
+  padding: 10px;
+  color: white;
+  border: none;
+}
+
+/* The switch - the box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 40px;
+  width: 40px;
+  left: 0px;
+  bottom: 4px;
+  top: 0;
+  bottom: 0;
+  margin: auto 0;
+  transition: 0.4s;
+  box-shadow: 0 0px 15px rgba(32, 32, 32, 0.2392156863);
+  background: white url("https://i.ibb.co/FxzBYR9/night.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+input:checked + .slider {
+  background-color: orange;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px orange;
+}
+
+input:checked + .slider:before {
+  transform: translateX(24px);
+  background: white url("https://i.ibb.co/7JfqXxB/sunny.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
